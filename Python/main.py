@@ -23,11 +23,12 @@ def start_game(blackPlayer, whitePlayer):
 
 from user import *
 from computer import *
+from computer2 import *
 
 user1 = User(othello)
 user2 = User(othello)
 com1 = Computer(othello)
-com2 = Computer(othello)
+com2 = Computer2(othello)
 
 game1 = createObject(Config.IMAGE_GAME_1, main, 450, 200)
 game1.onMouseAction = lambda x, y, action : start_game(user1, user2)

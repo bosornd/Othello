@@ -27,6 +27,7 @@
     <Compile Include="computer.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="computer2.py" />
     <Compile Include="config.py">
       <SubType>Code</SubType>
     </Compile>

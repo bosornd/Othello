@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Computer.cpp" />
+    <ClCompile Include="Computer2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Number.cpp" />
     <ClCompile Include="Othello.cpp" />
@@ -31,6 +32,7 @@
   <ItemGroup>
     <ClInclude Include="Board.h" />
     <ClInclude Include="Computer.h" />
+    <ClInclude Include="Computer2.h" />
     <ClInclude Include="config.h" />
     <ClInclude Include="Number.h" />
     <ClInclude Include="Othello.h" />

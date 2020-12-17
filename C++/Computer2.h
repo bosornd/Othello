@@ -1,10 +1,10 @@
 #pragma once
 #include "Player.h"
 
-class Computer : public Player
+class Computer2 : public Player
 {
 public:
-	Computer(OthelloPtr othello);
+	Computer2(OthelloPtr othello);
 
 	bool onTurn();
 };

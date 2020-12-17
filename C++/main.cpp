@@ -3,6 +3,7 @@
 #include "Othello.h"
 #include "User.h"
 #include "Computer.h"
+#include "Computer2.h"
 
 #include <ctime>
 
@@ -21,7 +22,8 @@ int main() {
 	auto othello = Othello::create();
 
 	User user1(othello), user2(othello);
-	Computer computer1(othello), computer2(othello);
+	Computer computer1(othello);
+	Computer2 computer2(othello);
 
 	auto game1 = Object::create(IMAGE_GAME_1, main, 450, 200);
 	game1->setOnMouseCallback([&](auto, auto, auto, auto)->bool {
