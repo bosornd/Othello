@@ -22,7 +22,11 @@ Number::Number(ScenePtr scene, int x, int y, bool shown)
 void Number::setNumber(int n)
 {
 	if (n >= 0 && n < 10) {
+#ifdef WIN32
 		string image = IMAGE_PATH + to_string(n) + ".png";
+#else
+		string image = to_string(n) + ".png";
+#endif
 		setImage(image);
 		show();
 	}

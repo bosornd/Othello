@@ -1,6 +1,10 @@
 ﻿#pragma once
 
+#ifdef WIN32
 #define IMAGE_PATH					"../Images/"
+#else
+#define IMAGE_PATH
+#endif
 
 #define IMAGE_GAME					IMAGE_PATH "othello.png"
 #define IMAGE_GAME_1				IMAGE_PATH "game1.png"
@@ -26,7 +30,7 @@
 #define NUMBER12_X					820
 #define NUMBER21_X					1080
 #define NUMBER22_X					1150
-#define NUMBER_Y					360
+#define NUMBER_Y					220
 
 #define TURN_X						920
 #define TURN_Y						100
